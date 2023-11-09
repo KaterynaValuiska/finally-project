@@ -101,7 +101,9 @@ const RadioBtnList = () => {
           />
         </div>
 
-        <button type="submit">Submit</button>
+        <button type="submit" className="submit-btn">
+          Save
+        </button>
       </fieldset>
     </form>
   );

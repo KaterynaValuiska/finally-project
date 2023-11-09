@@ -1,12 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
-import RadioBtnList from "./Components/RadioBtnList";
+import { UseForm } from "./Components/UseForm";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <RadioBtnList />
+        <UseForm />
       </header>
     </div>
   );

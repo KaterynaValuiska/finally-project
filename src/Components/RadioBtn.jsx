@@ -1,15 +1,9 @@
-import "./RadioBtn.css";
-const RadioBtn = ({ name, value, onChange, checked, text }) => {
+import { Field } from "formik";
+import "./useForm.css";
+const RadioBtn = ({ name, value, text }) => {
   return (
     <label className="radio-label">
-      <input
-        className="radio-input"
-        type="radio"
-        name={name}
-        value={value}
-        onChange={onChange}
-        checked={checked}
-      />
+      <Field className="radio-input" type="radio" name={name} value={value} />
 
       <span className="custom-radio" />
       <p className="radio-text">{text}</p>
